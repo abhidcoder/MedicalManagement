@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Your-Aid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Lobster+Two&family=Oxanium:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<style>
+/*{Effective} Changing Font*/
+  body, html {
+  height:100%;
+	background: #1c1e21;
+  	overflow-x: hidden;
+	font-family: 'Fredoka One', cursive;
+}
+
+btn {
+	border-radius: 0
+
+  
+}
+.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+	outline: 0;
+  border-radius: 0
+}
+
+
+/*{Effective} button color effective*/
+.btn-larger {
+	padding: 15px 40px !important;
+	border:2px solid #ca4141d0 !important;;
+	border-radius: 0px !important;;
+	text-transform: uppercase;
+	font-family: 'Fredoka One', cursive;
+	font-size: 28px;
+	font-weight: 400;
+	color: #ffffff;
+	background-color: transparent;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+  
+
+}
+/*(effective) Button color*/
+.btn-larger:hover, .btn-larger:focus, .btn-larger:active, .btn-larger.active, .open .dropdown-toggle.btn-larger {
+	border-color: #ca4141d0;
+	color: #fff;
+	background-color: #ca4141d0;
+  border-radius: 0
+}
+.btn-larger:active, .btn-larger.active, .open .dropdown-toggle.btn-larger {
+	background-image: none;
+}
+.btn-larger.disabled, .btn-larger[disabled], fieldset[disabled] .btn-larger, .btn-larger.disabled:hover, .btn-larger[disabled]:hover, fieldset[disabled] .btn-larger:hover, .btn-larger.disabled:focus, .btn-larger[disabled]:focus, fieldset[disabled] .btn-larger:focus, .btn-larger.disabled:active, .btn-larger[disabled]:active, fieldset[disabled] .btn-larger:active, .btn-larger.disabled.active, .btn-larger[disabled].active, fieldset[disabled] .btn-larger.active {
+	border-color: #AEA8D3;
+	background-color: #AEA8D3;
+}
+.btn-larger .badge {
+	color: #AEA8D3;
+	background-color: #fff;
+}
+
+div#form {
+	color: #fff;
+	background-attachment: scroll;
+	background: #fbfcfc url("./Backgrounds/alll.jpg");
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+  min-height:100%;
+
+}
+
+#userform p {
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+/*changes padding: 0 to all the padding done*/
+#userform ul {
+	list-style-type: none;
+	padding-top: 4px;
+	padding-right: 90px;
+	padding-left: 90px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+#userform {
+	background: rgba(0,0,0,0.8);
+	margin: 20px 0 20px 0;
+}
+
+ @media (min-width: 768px) {
+/*(Very Effective) changed complete margin */
+#userform {
+	background: rgba(0,0,0,0.8);
+	height:1125px;
+	margin-top: -50px;
+	margin-right: -350px;
+	margin-bottom: -100px;
+	margin-left: -350px;
+}
+}
+/*(effective)font-family added*/
+#userform .nav-tabs.nav-justified > li > a {
+	font-family: 'Fredoka One', cursive;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ca4141d0;
+	background-color: rgba(90,90,90,0.5);
+}
+/*changes border 0 to all the change for border here*/
+/*{Efective} color change in NavBars*/
+#userform .nav-tabs.nav-justified > .active > a, #userform .nav-tabs.nav-justified > .active > a:hover, #userform .nav-tabs.nav-justified > .active > a:focus {
+	border: 10px;
+	background: #ca4141d0;
+	color: white;
+	border-radius: 0;
+}
+/*changes for margin 0 to all the change for margin here*/
+#userform .nav-justified > li > a {
+	margin-top: 90px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+#userform .nav-justified > li > a:hover {
+	background: #000000;
+	color: rgb(212, 75, 21);
+}
+#userform .nav-tabs > li > a {
+	border: 0px solid transparent;
+	border-radius: 0
+}
+#userform .nav-tabs.nav-justified > li > a:hover {
+	background: #000000;
+	color: rgb(6, 6, 6);
+	border-radius: 0;
+	border: 0;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+#userform .nav-tabs > li.active > a, #userform .nav-tabs > li.active > a:hover, #userform .nav-tabs > li.active > a:focus {
+	color: #ca4141d0;
+	cursor: default;
+	background-color: transparent;
+	border: 0;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+ @media (min-width: 768px) {
+#userform .nav-tabs.nav-justified > li > a {
+	border: 0;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+/*(Effective) for Navbar background color change */
+#userform .nav-tabs.nav-justified > li > a:hover {
+	background-color: #a3636390;
+	border-color: transparent;
+	border: 0;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+}
+ @media (max-width: 768px) {
+.nav-justified > li {
+	display: table-cell !important;
+	width: 1% !important;
+}
+}
+#userform .nav-tabs {
+	border-bottom: 0px solid #ddd;
+}
+#userform .tab-pane h2 {
+	margin: 10px 0;
+	color: #FFF;
+}
+#userform .tab-pane p.lead {
+	margin-top: 20px;
+}
+
+/*(Effective) padding:20px to all the padding done*/
+#userform .tab-content {
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-top: 20px;
+	padding-right: 200px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+}
+#userform .form-group {
+	margin-bottom: 0px;
+	color: #FFF;
+}
+/*(effective) for spacing inside form */
+#userform .form-group input, #userform .form-group textarea {
+	padding: 10px;
+	letter-spacing: 3px;
+	font-size: 15px;
+}
+
+/*for docconfirm page..*/
+#userform .form-groups input, #userform .form-group textarea {
+	letter-spacing: 3px;
+	padding: 35px;
+}
+#userform .form-groupss input, #userform .form-group textarea {
+	padding: 20px;
+	background: #424242;
+}
+
+/*--end---*/
+#userform .form-group input.form-control {
+	height: auto;
+	background-color: rgba(237, 235, 250, 0.1);
+	color: rgb(246, 246, 246);
+}
+#userform .form-control {
+	border-radius: 0;
+	border: 1px solid #fff;
+}
+/*placeholder color*/
+#userform .form-control:focus {
+	border-color: #592727;
+	box-shadow: none;
+}
+ #userform::-webkit-input-placeholder {
+ text-transform: uppercase;
+font-family: 'Shadows Into Light', cursive;
+letter-spacing: 2px;
+font-weight: 700;
+ color: #bbb;
+}
+#userform #signup .form-group label {
+	position: relative;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	left: 10px;
+	top: 0px;
+	color: rgba(255, 255, 255, 0.5);
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	-webkit-backface-visibility: hidden;
+	pointer-events: none;
+	font-size: 12px;
+	font-weight: 300
+}
+/*mandatory field color*/
+#userform #signup .form-group label .req {
+	margin: 2px;
+	color: #ca4141d0;
+}
+#userform #signup .form-group label.active {
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	left: 2px;
+	font-size: 12px;
+}
+#userform #signup .form-group label.active .req {
+	opacity: 0;
+}
+#userform label.highlight {
+	color:   #ca4141d0;
+}
+#userform #login .form-group label {
+	position: relative;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	left: 10px;
+	top: 0px;
+	color: rgba(239, 230, 230, 0.5);
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	-webkit-backface-visibility: hidden;
+	pointer-events: none;
+	font-size: 12px;
+	font-weight: 300
+}
+#userform #login .form-group label .req {
+	margin: 2px;
+	color: #ca4141d0;
+}
+#userform #login .form-group label.active {
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	left: 2px;
+	font-size: 12px;
+}
+#userform #login .form-group label.active .req {
+	opacity: 0;
+}
+
+.mrgn-30-top {
+	margin-top: 70px;
+	margin-bottom:30px;
+}
+
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Lobster+Two&family=Oxanium:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+<body>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab" style="color:rgb(255, 255, 255);">Reset Profile</a></li>
+		  <li><a href="#detail"  role="tab" data-toggle="tab" style="color:rgb(255, 255, 255);">Check Profile</a></li>
+		  <li><a href="#block"  role="tab" data-toggle="tab" style="color:rgb(255, 255, 255);">Block / Unblock</a></li>
+          <li><a href="#dell"  role="tab" data-toggle="tab" style="color:rgb(255, 255, 255);">Delete Profile</a></li>
+		  
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+			<div class="row">
+			<marquee><h2 style="text-align:left;float:right; color:rgba(238, 238, 7, 0.771); font-family: 'Fredoka One', cursive;">Welcome To Your-Aid  Console (Always In Your Favor)</h2></marquee>
+			  <h2 class="text-center" style="#">Patient's Reset Profile Console</h2>
+			</div>
+              <form id="signup" method="POST" action="/ad/dbms">
+              <div class="form-group">
+                <label>Patient's Email<span class="req">*</span> </label>
+                <input type="email" name="oonee" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+			  <br>
+			   <div>
+				<h5 style="color:rgba(0, 255, 255, 0.782); font-size: 19px">Choose an Updation Field:</h5>
+                  <select name="twoo" class="form-control" id="Practice" >
+					<option value="fname">First-Name</option>
+					<option value="lname">Last-Name</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Contact Number</option>
+                    <option value="aadhar">Aadhar Card No.</option>
+                    <option value="password">Password</option>
+                  </select>
+                  </div>
+				  <br>
+              <div class="form-group">
+                <label> Enter the detail to be updated<span class="req">*</span> </label>
+              <textarea name="thrree" class="form-control" style="color:rgb(255, 255, 255);" required data-validation-required-message="Please enter meet-up address."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+    				<button type="submit" class="btn btn-larger btn-block"/>
+                Update Profile
+                </button>
+				 </div>
+            </form>
+          </div>
+		   <div class="tab-pane fade in" id="detail">
+			   <div class="row">
+			<h2 style="text-align:right;float:left; color:rgba(152, 48, 154, 0.705);">Your-Aid </h2>
+			  <h2 style="text-align:left;float:right;">Patient's Profile Details Console</h2>
+			</div>
+			<br>
+            <form id="detail" method="POST" action="/ad/statue">
+              <div class="form-group">
+                <label style="color:rgba(0, 255, 255, 0.588);">Enter Patient's Email<span class="req">*</span> </label>
+                <input type="email" name="fourr" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+			  <br>
+              <div class="mrgn-30-top">
+    				<button type="submit"  class="btn btn-larger btn-block">
+                Get Details
+                </button>
+              </div>
+            </form>
+            </div>
+		  <!-- <div class="tab-pane fade in" id="detail">
+			   <div class="row">
+			<h2 style="text-align:right;float:left; color:rgba(152, 48, 154, 0.705);">Your-Aid </h2>
+			  <h2 style="text-align:left;float:right;">Patient's Profile Confirmation Console</h2>
+			</div>
+			<br>
+            <form id="detail" method="POST" action="/ad/statue">
+              <div class="form-group">
+                <label style="color:rgba(0, 255, 255, 0.588);">Enter Patient's Email<span class="req">*</span> </label>
+                <input type="email" name="fivee" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+			  <br>
+              <div class="mrgn-30-top">
+    				<button type="submit"  class="btn btn-larger btn-block">
+                Get Details
+                </button>
+              </div>
+            </form>
+          </div>-->
+		   <div class="tab-pane fade in" id="block">
+			   <div class="row">
+			<h2 style="text-align:right;float:left; color:rgba(198, 120, 31, 0.705);">Your-Aid </h2>
+			  <h2 style="text-align:left;float:right;">Patient's Profile Block/Unblock Console</h2>
+			</div>
+			<br>
+            <form id="block" method="POST" action="/ad/blockked">
+              <div class="form-group">
+				<h4 style="color:rgba(255, 55, 0, 0.588);">Note: Profile will be inactive after Blocking until it's Active again</h4>
+				<br>
+                <label style="color:rgba(0, 255, 255, 0.588);">Enter Patient's Email<span class="req">*</span> </label>
+                <input type="email" name="ssixx" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+			   <br>
+			   <div>
+				<h5  style="color:rgba(0, 255, 255, 0.759); font-size: 19px;" >Choose the status:</h5>
+                  <select name="ssevenn" class="form-control" id="Practice" >
+					<option value="Blocked">Block</option>
+					<option value="Unblocked">Unblock</option>
+                  </select>
+                  </div>
+				  <br>
+              <div class="mrgn-30-top">
+    				<button type="submit" class="btn btn-larger btn-block"/>
+                Block / Unblock
+                </button>
+              </div>
+            </form>
+          </div>
+		   <div class="tab-pane fade in" id="dell">
+			<div class="row">
+			<h2 style="text-align:right;float:left; color:rgba(177, 198, 59, 0.705);">Your-Aid </h2>
+			  <h2 style="text-align:left;float:right;">Patient's Delete Profile Console</h2>
+			</div>
+			<br>
+            <form id="dell" method="POST" action="/ad/deling">
+              <div class="form-group">
+				<h4 style="color:rgba(255, 55, 0, 0.588);">Note: Profile will be permanently deleted</h4>
+				<br>
+                <label style="color:rgba(0, 255, 255, 0.588);">Enter Patients's Email<span class="req">*</span> </label>
+                <input type="email" name="eightt" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+			  <br>
+              <div class="mrgn-30-top">
+    				<button type="submit" class="btn btn-larger btn-block"/>
+                Delete The Profile
+                </button>
+              </div>
+            </form>
+          </div>
+		
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /.container --> 
+</div>
+  <!-- //start --> 
+ <!-- End --> 
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

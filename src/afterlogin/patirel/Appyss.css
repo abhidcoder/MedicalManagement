@@ -1,0 +1,31 @@
+/* Create two equal columns that floats next to each other */
+.column {
+
+  display: grid;
+  /*grid-template-columns: 100fr 100fr 20.5fr 100.5fr;*/
+}
+
+
+.mores{
+
+  z-index: 20px;
+  margin-top: 40px;
+  margin-left: 600px;
+  margin-bottom: 20px;
+  background: rgb(160, 107, 198);
+  border-radius: 1000px;
+  overflow: hidden;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  
+}
+
+.msgs{
+margin-top: 20px;
+margin-left: 55px;
+font-family: "Open Sans", Helvetica, sans-serif;
+/*font-weight: 'bold';*/
+
+
+
+}
+

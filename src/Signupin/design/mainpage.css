@@ -1,0 +1,38 @@
+.one{
+    margin-top: 195px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 135px;
+}
+
+
+.two{
+    margin-top: 195px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 80px;
+}
+
+.three{
+    margin-top: 195px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 80px;
+}
+
+.carousel {
+    width:1280px;
+    height:40px;
+    margin: auto;
+  }
+
+.font-loader {
+    font-family: 'Chilanka';
+    color: #bed31d;
+  }
+
+  .loaders{
+    font-family: 'Chilanka';
+    color: #b81e1ea4;
+  }
+
